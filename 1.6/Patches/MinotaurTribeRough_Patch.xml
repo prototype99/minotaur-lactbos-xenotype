@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Equal Milking</li>
+      <li>Minotaur Xenotype Factions</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[defName="MinotaurTribeRough"]/xenotypeSet/xenotypeChances</xpath>
+      <value>
+        <Lactbos>0.1</Lactbos>
+      </value>
+    </match>
+  </Operation>
+</Patch>

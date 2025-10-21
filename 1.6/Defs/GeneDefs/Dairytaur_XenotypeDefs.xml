@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<XenotypeDef>
+		<defName>Lactbos</defName>
+		<label>lactbos</label>
+		<!-- Desc -->
+		<description>Wherever minotaurs can be found in the galaxy, lactbos can be found with them. This kind-hearted, lustful and eternally optimistic subtype of minotaur produce a significantly higher volume of milk than the average minotaur and produce the majority of the milk most minotaur communities consume. They are of slightly dim intellect, and poor with both ranged and melee weapons.</description>
+		<descriptionShort>A variant of the minotaur xenotype that serve as milk maids in minotaur communities, these optimistic, kind and lustful creatures produce significantly higher volumes of milk than the average minotaur.</descriptionShort>
+		<!-- Stats -->
+		<iconPath>UI/Icons/Xenotypes/Minotaur</iconPath>
+		<inheritable>true</inheritable>
+		<genes>
+			<!-- Ability -->
+			<!-- Cosmetic -->
+			<li>Horns_Bovine</li>
+			<li>Head_Bovine</li>
+			<li>Ears_Bovine</li>
+			<li>Tail_Bovine</li>
+            <!-- Bodies -->
+            <li>Body_Standard</li>
+			<!-- Skins -->
+			<li>Skin_Earthy</li>
+			<li>Skin_Chocolate</li>
+			<li>Skin_Black</li>
+			<li>Skin_InkBlack</li>
+			<li>Skin_SlateGray</li>
+			<li>Skin_LightGray</li>
+			<li>Skin_SheerWhite</li>
+			<!-- Skills -->
+			<li>AptitudePoor_Intellectual</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudePoor_Melee</li>
+			<!-- Other -->
+			<li>KindInstinct</li>
+			<li>Mood_Optimist</li>
+			<li MayRequire="akaster.equalmilking">EM_Lactation_Enhanced</li>
+			<li MayRequire="Vegapnk.rjw.genes">rjw_genes_big_breasts</li>
+			<li>Libido_High</li>
+			<!--<li>ClovenHooves</li> -->
+		</genes>
+	</XenotypeDef>
+</Defs>

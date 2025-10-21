@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Minotaurs Lactbos Xenotype</name>
+  <author>Snowcraft</author>
+  <packageId>snowcraft.minotaurs.equalmilking</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Adds the lactbos xenotype, an optimistic, kind and lustful variant of minotaur that serve as milk maids in minotaur communities. Requires Equal Milking.</description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+    <li>
+      <packageId>Snowcraft.MinotaurXenotype</packageId>
+      <displayName>Minotaur Xenotype</displayName>
+    </li>
+	  <li>
+      <packageId>akaster.equalmilking</packageId>
+      <displayName>Equal Milking</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld.Biotech</li>
+	<li>akaster.equalmilking</li>
+  <li>Snowcraft.MinotaurXenotype</li>
+  <li>Snowcraft.MinotaurXenotype.Factions</li>
+  </loadAfter>
+</ModMetaData>
